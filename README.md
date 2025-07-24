@@ -14,7 +14,9 @@ A key feature of this project is a custom-coded, rule-based **AI Chatbot** to as
 
 ## 🌐 Live Demo
 
-[Click here to view the live site](https://fruitshopwebsite.netlify.app)
+[- 🔗 Click here to view the live site on Netlify](https://fruitshopwebsite.netlify.app)
+
+[- 🔗 Click here to view the live site on GitHub Pages](https://riteshraut0116.github.io/fruit_shop_website_html/)
 
 ---
 
