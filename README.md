@@ -8,13 +8,14 @@ A key feature of this project is a custom-coded, rule-based **AI Chatbot** to as
 
 ## 📸 Fruitkha Homepage
 
-![Fruitkha Homepage](fruit_shop_website/assets/img/screenshot.png)
+![Fruitkha Homepage](assets/img/screenshot.png)
 
 ---
 
 ## 🌐 Live Demo
 
 [- 🔗 Click here to view the live site on Netlify](https://fruitshopwebsite.netlify.app)
+
 [- 🔗 Click here to view the live site on GitHub Pages](https://riteshraut0116.github.io/fruit_shop_website_html/)
 
 ---
