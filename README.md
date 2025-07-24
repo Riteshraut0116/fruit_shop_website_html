@@ -58,7 +58,7 @@ This is a static website project. To run it locally, you can simply open the `in
     ```
 2.  **Navigate to the project directory:**
     ```sh
-    cd fruitkha-website
+    cd fruit_shop_website
     ```
 3.  **Open `index.html` in your browser.**
 
