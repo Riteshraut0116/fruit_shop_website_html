@@ -8,7 +8,7 @@ A key feature of this project is a custom-coded, rule-based **AI Chatbot** to as
 
 ## 📸 Screenshot
 
-![Fruitkha Homepage](fruit_shop_website/assets/img/screenshot.png)
+![Fruitkha Homepage](assests/img/screenshot.png)
 
 ---
 
