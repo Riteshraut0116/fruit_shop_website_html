@@ -70,4 +70,21 @@ No special build steps or dependencies are required.
 
 ## 📂 Repository Structure
 
-└── fruit_shop_website/ ├── assets/ │ ├── bootstrap/ │ ├── css/ │ ├── img/ │ └── js/ ├── about.html ├── cart.html ├── checkout.html ├── contact.html ├── index.html ├── index_2.html ├── news.html ├── shop.html ├── single-news.html ├── single-product.html ├── 404.html └── README.md
+fruit_shop_website/
+├── assets/
+│   ├── bootstrap/
+│   ├── css/
+│   ├── img/
+│   └── js/
+├── about.html
+├── cart.html
+├── checkout.html
+├── contact.html
+├── index.html
+├── index_2.html
+├── news.html
+├── shop.html
+├── single-news.html
+├── single-product.html
+├── 404.html
+└── README.md
