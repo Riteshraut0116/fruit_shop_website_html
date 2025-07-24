@@ -8,9 +8,13 @@ A key feature of this project is a custom-coded, rule-based **AI Chatbot** to as
 
 ## 📸 Screenshot
 
-*(Consider adding a screenshot of your homepage here, for example: `assets/img/screenshot.png`)*
+![Fruitkha Homepage](assets/img/screenshot.png)
 
-!Fruitkha Homepage
+---
+
+## 🌐 Live Demo
+
+[Click here to view the live site](https://fruitshopwebsite.netlify.app)
 
 ---
 
