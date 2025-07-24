@@ -2877,4 +2877,40 @@ table.order-details tbody td {
 	margin-left: 10px;
 	cursor: pointer;
 }
+
+.typing-indicator {
+	display: flex;
+	align-items: center;
+}
+
+.typing-indicator span {
+	height: 8px;
+	width: 8px;
+	margin: 0 2px;
+	background-color: #a8a8a8;
+	display: block;
+	border-radius: 50%;
+	opacity: 0.4;
+	animation:-pulse 1s infinite ease-in-out;
+}
+
+/* Custom scrollbar for chat body */
+.chatbot-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbot-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.chatbot-body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.chatbot-body::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
 /* --- end chatbot styles --- */
