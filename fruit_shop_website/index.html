@@ -4,10 +4,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+	<meta name="description" content="A responsive fruit shop website template.">
+	<meta name="author" content="Ritesh Raut">
 
 	<!-- title -->
-	<title>Fruitkha - Slider Version</title>
+	<title>Fruitkha</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -129,59 +130,18 @@
 	</div>
 	<!-- end search area -->
 
-	<!-- home page slider -->
-	<div class="homepage-slider">
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh & Organic</p>
-								<h1>Delicious Seasonal Fruits</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Fruit Collection</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-2">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-center">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh Everyday</p>
-								<h1>100% Organic Collection</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-3">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-right">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Mega Sale Going On!</p>
-								<h1>Get December Discount</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
+	<!-- hero area -->
+	<div class="hero-area hero-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 offset-lg-2 text-center">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<p class="subtitle">Fresh & Organic</p>
+							<h1>Delicious Seasonal Fruits</h1>
+							<div class="hero-btns">
+								<a href="shop.html" class="boxed-btn">Fruit Collection</a>
+								<a href="contact.html" class="bordered-btn">Contact Us</a>
 							</div>
 						</div>
 					</div>
@@ -189,7 +149,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- end home page slider -->
+	<!-- end hero area -->
 
 	<!-- features list section -->
 	<div class="list-section pt-80 pb-80">
@@ -306,7 +266,7 @@
                     <h4>Hikan Strwaberry</h4>
                     <div class="text">Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam similique! Beatae, minima quisquam molestias facere ea. Perspiciatis unde omnis iste natus error sit voluptatem accusant</div>
                     <!--Countdown Timer-->
-                    <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2020/2/01"><div class="counter-column"><div class="inner"><span class="count">00</span>Days</div></div> <div class="counter-column"><div class="inner"><span class="count">00</span>Hours</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Mins</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Secs</div></div></div></div>
+                    <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2025/12/31"><div class="counter-column"><div class="inner"><span class="count">00</span>Days</div></div> <div class="counter-column"><div class="inner"><span class="count">00</span>Hours</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Mins</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Secs</div></div></div></div>
                 	<a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
@@ -496,6 +456,29 @@
 	</div>
 	<!-- end logo carousel -->
 
+	<!-- chatbot -->
+	<div class="chatbot-container">
+		<div id="chatbot-icon">
+			<i class="fas fa-comment-dots"></i>
+		</div>
+		<div id="chatbot-window">
+			<div class="chatbot-header">
+				<h5>FruitkhaBot</h5>
+				<span class="close-btn" id="chatbot-close-btn"><i class="fas fa-times"></i></span>
+			</div>
+			<div class="chatbot-body" id="chatbot-body">
+				<div class="chat-message bot-message">
+					<p>Hello! I'm FruitkhaBot. How can I help you today? You can ask about "shipping", "products", or "contact".</p>
+				</div>
+			</div>
+			<div class="chatbot-footer">
+				<input type="text" id="chatbot-input" placeholder="Type your message...">
+				<button id="chatbot-send-btn"><i class="fas fa-paper-plane"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- end chatbot -->
+
 	<!-- footer -->
 	<div class="footer-area">
 		<div class="container">
@@ -522,7 +505,7 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Shop</a></li>
+							<li><a href="shop.html">Shop</a></li>
 							<li><a href="news.html">News</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
@@ -548,11 +531,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-			              <p class="text-center text-md-end text-xl-start"> 
-                All Rights Reserved
-              </p>
+					<p>Copyrights &copy; 2024 - All Rights Reserved.</p>
 				</div>
-				<div class="col-lg-6 text-right col-md-12">
+				<div class="col-lg-6 col-md-12 text-right">
 					<div class="social-icons">
 						<ul>
 							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
