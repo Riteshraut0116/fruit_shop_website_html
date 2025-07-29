@@ -224,18 +224,27 @@
         function getBotResponse(input) {
             var lowerInput = input.toLowerCase();
 
-            if (lowerInput.includes('shipping')) {
-                return 'We offer free shipping on all orders over $75!';
+            // Use a regular expression for 'hi' to match it as a whole word and avoid matching it in "shipping".
+            if (lowerInput.includes('hello') || /\bhi\b/.test(lowerInput) || lowerInput.includes('hey')) {
+                return 'Hello there! How can I assist you today?';
+            } else if (lowerInput.includes('shipping') || lowerInput.includes('delivery')) {
+                return 'We offer free shipping on all orders over $75! Standard delivery typically takes 3-5 business days.';
             } else if (lowerInput.includes('product') || lowerInput.includes('fruit')) {
                 return 'You can see our full collection on the <a href="shop.html">Shop</a> page.';
             } else if (lowerInput.includes('contact') || lowerInput.includes('support')) {
                 return 'You can reach us at support@fruitkha.com or call +00 111 222 3333. Our <a href="contact.html">Contact</a> page has more details.';
             } else if (lowerInput.includes('deal') || lowerInput.includes('sale')) {
                 return 'Our deal of the month is the Hikan Strawberry, with 30% off! Check it out on the homepage.';
+            } else if (lowerInput.includes('return') || lowerInput.includes('refund')) {
+                return 'We have a 3-day return policy. If you are not satisfied with your order, you can get a refund within 3 days of purchase.';
+            } else if (lowerInput.includes('about')) {
+                return 'You can learn more about Fruitkha on our <a href="about.html">About Us</a> page.';
+            } else if (lowerInput.includes('hours') || lowerInput.includes('open')) {
+                return 'Our shop hours are Monday to Friday, 8 AM to 9 PM, and Saturday to Sunday, 10 AM to 8 PM.';
             } else if (lowerInput.includes('bye') || lowerInput.includes('thanks')) {
                 return 'You\'re welcome! Have a great day.';
             } else {
-                return "I'm sorry, I don't understand. You can ask me about shipping, products, or contact information.";
+                return "I'm sorry, I don't understand. You can ask me about shipping, products, returns, or contact information.";
             }
         }
     

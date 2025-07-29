@@ -2828,24 +2828,37 @@ table.order-details tbody td {
 
 .chat-message {
 	margin-bottom: 15px;
-	max-width: 80%;
+	max-width: 85%;
+}
+
+.chat-message p {
 	padding: 10px 15px;
 	border-radius: 18px;
 	line-height: 1.4;
+	display: inline-block;
+	margin: 0;
 }
 
 .bot-message {
-	background-color: #e9e9eb;
-	color: #051922;
-	border-top-left-radius: 0;
 	align-self: flex-start;
 }
 
+.bot-message p {
+	background-color: #e9e9eb;
+	color: #051922;
+	border-top-left-radius: 0;
+}
+
 .user-message {
-	background-color: #F28123;
-	color: #fff;
-	border-top-right-radius: 0;
 	align-self: flex-end;
+	text-align: right;
+}
+
+.user-message p {
+	background-color: #051922;
+	color: #fff;
+	border-bottom-right-radius: 0;
+	text-align: left;
 }
 
 .chatbot-footer {
