@@ -96,6 +96,6 @@ fruit_shop_website/
 **Ritesh Raut**  
 *Programmer Analyst, Cognizant*
 
-Passionate about building practical and visually engaging web applications. This project reflects a blend of creativity, user experience, and technical implementation aimed at solving real-world problems in a simple and elegant way.
+🍎 Fresh Code, Juicy Design — A Fruitful Shopping Experience! 🛒🍊
 
 ---
